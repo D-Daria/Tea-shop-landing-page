@@ -1,0 +1,1300 @@
+@media screen and (min-width: 1700px) {
+
+    #main {
+        background-size: 100%;
+    }
+
+    .slick-prev {
+        left: 29%;
+    }
+
+    .slick-next {
+        right: 30%;
+    }
+
+    .product-leaf-in {
+        right: calc(61%);
+    }
+}
+
+@media screen and (max-width: 1440px) {
+
+}
+
+@media screen and (max-width: 1229px) {
+
+
+}
+
+/*1024 - 1199*/
+@media screen and (max-width: 1199px) {
+
+    #header {
+        padding: 18px 20px 0 20px;
+    }
+
+    #choose {
+        padding: 159px 20px 445px 20px;
+    }
+
+    .comp-advantages {
+        justify-content: space-around;
+    }
+
+    #company-products .products {
+        padding: 0 60px;
+    }
+
+
+    .product-leaf-under {
+        bottom: 5%;
+    }
+
+    .product .product-text {
+        max-width: inherit;
+    }
+
+    .outer-circle .outer-circle {
+        position: relative;
+    }
+
+    .product:first-child .product-text {
+        max-width: inherit;
+    }
+
+    .giftbox-product .outer-circle {
+        order: 2;
+        margin-right: 0;
+        margin-left: 30px;
+    }
+
+    .teamix-product .product-text {
+        width: inherit;
+    }
+
+    .teamix-product .tea-mix-text {
+        order: 2;
+    }
+
+    .teamix-product .outer-circle {
+        margin-left: 0;
+        margin-right: 30px;
+    }
+
+    .accessory-product .accessory-desc-text {
+        width: inherit;
+    }
+
+    .products-top, .products-bottom {
+        display: block;
+    }
+
+    .product-leaf-in {
+        bottom: calc(49%);
+        right: calc(47%);
+    }
+
+    .product-leaf-under {
+        bottom: 20%;
+    }
+
+    .teamix-product {
+        margin-right: 0;
+    }
+
+    .slick-prev {
+        left: 11%;
+    }
+
+    .slick-next {
+        right: 13%;
+    }
+
+    #discount-box-content {
+        display: flex;
+        align-items: center;
+        padding: 57px 37px 78px 74px;
+        flex-direction: column;
+    }
+
+    #discount-box .discount-box-image img {
+        margin-right: 0;
+        margin-bottom: 20px;
+    }
+
+    #circle-benefit {
+        width: 510px;
+        height: 510px;
+    }
+
+    .benefit-tea img {
+        width: 450px;
+        opacity: 0.5;
+    }
+
+    .left-benefit-top {
+        /* top: 50%; */
+        right: -60px;
+    }
+
+    .left-middle-benefit {
+        right: -64px;
+        top: 0;
+    }
+
+    .right-benefit-top .benefit-outer-circle {
+        display: none;
+    }
+
+    .right-benefit-middle {
+        /*right: -45px;*/
+        left: 0;
+    }
+
+    .right-benefit-middle .benefit-outer-circle {
+        display: none;
+    }
+
+    .right-benefit-top {
+        bottom: 150px;
+        right: -282px;
+    }
+
+    .left-bottom-benefit {
+        top: 217px;
+        left: -349px;
+    }
+
+    .right-benefit-bottom {
+        top: 257px;
+        left: 0;
+    }
+
+    .right-benefit-bottom {
+        top: 217px;
+        left: -8px;
+    }
+
+    .right-benefit-bottom .benefit-outer-circle {
+        display: none;
+    }
+
+    #pick-tea-content {
+        justify-content: center;
+    }
+
+    #pick-tea {
+        max-width: 1024px;
+        padding-bottom: 180px;
+    }
+
+    #pick-tea-content .pick-tea-text {
+        max-width: 714px;
+        text-align: justify;
+        margin-top: 15px;
+    }
+
+    .pick-tea-circle-outer {
+        top: calc(38%);
+        left: calc(68%);
+    }
+
+    .pick-tea-mint {
+        top: calc(46%);
+        left: calc(77%);
+    }
+
+    #footer-container {
+        max-width: 1024px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    #footer-container .logo {
+        margin: 0;
+    }
+
+    .footer_logo {
+        margin-right: 20px;
+    }
+
+    .designer {
+        margin-left: 183px;
+    }
+
+    .social_networks {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .instagram, .facebook {
+        margin-right: 0;
+    }
+
+    #thanks {
+        width: 900px;
+        height: 450px;
+    }
+
+
+}
+
+
+/*768 - 1023*/
+@media screen and (max-width: 1023px) {
+
+    #main {
+        background-size: 123% 87%;
+    }
+
+    #header {
+        flex-wrap: wrap;
+        padding-right: 20px;
+        padding-left: 20px;
+        justify-content: space-between;
+    }
+
+    .header_menu {
+        flex-wrap: wrap;
+    }
+
+    .header-link {
+        order: 1;
+        margin-top: 15px;
+    }
+
+    .header-logo_link {
+        width: 100%;
+        margin: 0 auto;
+        display: flex;
+        justify-content: center;
+    }
+
+    #choose {
+        padding: 159px 20px 300px 20px;
+    }
+
+    .choose-title {
+        max-width: 400px;
+    }
+
+    #company-adv-container {
+        padding-bottom: 145px;
+    }
+
+    .comp-advantages {
+        flex-wrap: wrap;
+        max-width: 600px;
+        margin: 0 auto;
+        padding-top: 25px;
+    }
+
+    .comp-advantage.outer-circle {
+        margin: 20px;
+    }
+
+    .slick-next {
+        right: 35%;
+        top: 97%;
+    }
+
+    .slick-prev {
+        left: 32%;
+        top: 97%;
+    }
+
+    .left-benefit-top {
+        right: -60px;
+    }
+
+    .right-benefit-top {
+        bottom: 104px;
+        right: -247px;
+    }
+
+    .left-middle-benefit {
+        right: -100px;
+        top: -49px;
+    }
+
+    .right-benefit-middle {
+        left: 0;
+    }
+
+    .left-bottom-benefit {
+        top: 134px;
+        left: -345px;
+    }
+
+    .right-benefit-bottom {
+        top: 188px;
+        left: -74px;
+    }
+
+    .benefits-floating-leaves {
+        top: calc(24%);
+    }
+
+    .pick-tea-circle-outer {
+        left: calc(69%);
+    }
+
+    .pick-tea-mint {
+        top: calc(47%);
+        left: calc(78%);
+    }
+
+    #footer {
+        background-position: center;
+        background-repeat: no-repeat;
+        position: relative;
+        background-size: 307%;
+    }
+
+    .designer {
+        margin-left: 153px;
+    }
+
+    #footer-container {
+        flex-wrap: wrap;
+    }
+
+    .footer_logo {
+        width: 100%;
+        text-align: center;
+        padding-bottom: 20px;
+    }
+
+
+    #order {
+        padding: 60px 76px 84px 160px;
+    }
+
+    .order-plant {
+        left: calc(16%);
+    }
+
+    #thanks {
+        width: 700px;
+        height: 400px;
+    }
+
+
+}
+
+
+/*580 - 767*/
+@media screen and (max-width: 767px) {
+    #main {
+        background-position: left;
+        background-size: 300% 100%;
+    }
+
+    #header {
+        /*width: 500px;*/
+        align-items: center;
+        flex-wrap: wrap;
+        justify-content: center;
+        display: flex;
+    }
+
+    .header_menu {
+        justify-content: center;
+        width: 500px;
+    }
+
+    #header .logo {
+        margin-bottom: 15px;
+    }
+
+    .header-link {
+        margin: 15px;
+    }
+
+    .company-adv-title {
+        margin-top: 85px;
+    }
+
+    #choose {
+        margin: 0 auto;
+        padding: 80px 20px 150px 20px;
+        text-align: center;
+    }
+
+    .choose-title {
+        font-size: 60px;
+        text-align: center;
+        margin: 0 auto;
+        max-width: 550px;
+    }
+
+    .choose-description {
+        margin: 41px auto 41px auto;
+        /*width: 345px;*/
+        /*margin: 0 auto;*/
+    }
+
+    .choose-title span {
+        font-size: 40px;
+    }
+
+    #tea-sorts {
+        align-items: center;
+        flex-wrap: wrap;
+        justify-content: center;
+        display: flex;
+    }
+
+    #tea-sorts .tea-sort {
+        margin: 15px 15px;
+    }
+
+    .gift-box-text .product-text-title {
+        width: 222px;
+    }
+
+    .tea .tea-image img {
+        width: 250px;
+    }
+
+    .teas .tea {
+        padding: 20px;
+    }
+
+    .tea-description .tea-title {
+        margin-bottom: 20px;
+    }
+
+    #discount-box-content {
+        width: 500px;
+        padding: 20px;
+    }
+
+    #discount-box .discount-box-image img {
+        width: 250px;
+    }
+
+    #discount-box .discount-info .discount-info-title {
+        font-size: 30px;
+    }
+
+    #discount-box .discount-info .discount-info-desc {
+        font-size: 16px;
+    }
+
+    #discount-box .discount-info .discount-form-input input {
+        width: 300px;
+    }
+
+    #discount-box .discount-info .discount-form-btn {
+        width: 300px;
+    }
+
+    .discount-mint {
+        width: 200px;
+        left: -10px;
+    }
+
+    .benefit-text {
+        font-size: 14px;
+    }
+
+    .benefit-text-right-top {
+        text-align: right;
+        padding-left: 15px;
+        width: 93%;
+    }
+
+    .benefit-outer-circle {
+        width: 40px;
+        height: 40px;
+    }
+
+    .benefit-inner-circle {
+        width: 25px;
+        height: 25px;
+    }
+
+    .benefit-tea img {
+        width: 400px;
+        opacity: 0.2;
+    }
+
+    .left-middle-benefit {
+        right: -122px;
+        top: -71px;
+    }
+
+    .benefit-text-left-middle {
+        width: 253px;
+    }
+
+    .benefit-text-right-middle {
+        width: 94%;
+        padding-left: 31px;
+        text-align: right;
+    }
+
+    .left-bottom-benefit {
+        top: 89px;
+        left: -272px;
+    }
+
+    .benefit-text-left-bottom {
+        width: 326px;
+    }
+
+    .left-benefits .benefit-outer-circle {
+        top: -30px;
+        right: 28px;
+    }
+
+    .right-benefits .benefit-text {
+        padding-left: 18px;
+    }
+
+    .right-benefit-top {
+        bottom: 104px;
+        right: -247px;
+    }
+
+    .right-benefit-middle {
+        left: -79px;
+        bottom: -38px;
+    }
+
+    .right-benefit-bottom {
+        display: flex;
+        justify-content: flex-end;
+        top: 143px;
+        left: -150px;
+    }
+
+    .benefit-text-right-bottom {
+        width: 200px;
+        text-align: right;
+    }
+
+    .right-benefit-bottom .benefit-outer-circle {
+        display: none;
+    }
+
+    #pick-tea-content .pick-tea-video {
+        width: 500px;
+        height: 300px;
+    }
+
+    #pick-tea-content .pick-tea-text {
+        max-width: 500px;
+    }
+
+    .pick-tea-circle-outer {
+        left: calc(68%);
+        top: calc(26%);
+    }
+
+    .pick-tea-mint {
+        top: calc(34%);
+        left: calc(83%);
+    }
+
+    #footer {
+        background-size: 530%;
+    }
+
+    .designer_rights {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+    }
+
+    .rights {
+        /*position: absolute;
+        bottom: 30px;*/
+        margin: 0;
+    }
+
+    .designer {
+        /*position: absolute;
+        bottom: 10px;
+        left: 20px;*/
+        margin: 0;
+    }
+
+    .social_networks {
+        display: flex;
+        flex-direction: inherit;
+        align-items: center;
+        margin-top: 20px;
+    }
+
+    .social_networks a:not(:last-child) {
+        margin-right: 15px;
+    }
+
+    .designer_rights {
+        margin-top: 20px;
+    }
+
+    #order {
+        padding: 20px;
+    }
+
+    .order-plant {
+        left: calc(43%);
+    }
+
+    #thanks {
+        width: 500px;
+        height: 350px;
+    }
+
+    #thanks .thanks-text {
+        top: calc(7%);
+        right: calc(6%);
+    }
+
+}
+
+
+/*579-767*/
+@media screen and (min-width: 579px) and (max-width: 767px) {
+
+    .pick-tea-circle-outer {
+        left: calc(59%);
+        top: calc(26%);
+    }
+
+    .pick-tea-mint {
+        top: calc(34%);
+        left: calc(71%);
+    }
+
+}
+
+
+/*480 - 579*/
+@media screen and (max-width: 579px) {
+
+    #burger_menu {
+        display: block;
+    }
+
+    #header {
+        position: relative;
+    }
+
+    .open_menu {
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+    }
+
+    #header .logo {
+        margin-bottom: 0;
+    }
+
+    #choose {
+        padding: 159px 20px 100px 20px;
+    }
+
+    .adaptive_logo {
+        display: block;
+    }
+
+    .header-logo_link {
+        display: none;
+    }
+
+    .header_menu {
+        display: none;
+        top: 78px;
+        position: fixed;
+        background: rgba(221, 243, 205, 0.72);
+        z-index: 10;
+        width: 100%;
+        text-align: center;
+        padding: 20px 0;
+        /*display: flex;*/
+        height: 100%;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+
+    .products .product {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .product-circle:first-child {
+        margin-right: 0;
+        margin-bottom: 30px;
+    }
+
+    .giftbox-product .outer-circle {
+        order: 1;
+        margin-left: 0;
+    }
+
+    .gift-box-text {
+        order: 2;
+    }
+
+    .gift-box-text .product-text-title {
+        width: inherit;
+    }
+
+    .teamix-product .outer-circle {
+        margin-right: 0;
+        margin-bottom: 30px;
+    }
+
+    .accessory-product .accessory-desc-text {
+        order: 1;
+    }
+
+    .product-circle:last-child {
+        margin-left: 0;
+        margin-bottom: 30px;
+    }
+
+    .teas .tea {
+        padding: 20px;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+    .tea-description {
+        text-align: center;
+    }
+
+    .tea .tea-image {
+        margin-right: 0;
+    }
+
+    .slick-dots {
+        bottom: -40px;
+    }
+
+    .slick-prev {
+        top: 100%;
+    }
+
+    .slick-next {
+        top: 100%;
+    }
+
+    #tea-collection {
+        padding-bottom: 100px;
+    }
+
+    #discount {
+        overflow: hidden;
+        padding-top: 50px;
+    }
+
+    #discount-box-content {
+        width: 400px;
+    }
+
+    .second-title {
+        font-size: 40px;
+    }
+
+    #order {
+        background-position: 38% 51%;
+        background-size: 292%;
+        background-repeat: no-repeat;
+        padding: 40px 30px;
+    }
+
+    #order-form .order-inputs {
+        flex-direction: column;
+        width: fit-content;
+        margin: 0;
+    }
+
+    .close {
+        top: 15px;
+        right: 30px;
+    }
+
+    #circle-benefit {
+        width: 400px;
+        height: 400px;
+    }
+
+    .benefit svg {
+        display: none;
+    }
+
+    .benefit-tea img {
+        width: 350px;
+    }
+
+    .left-benefit-top {
+        left: -80px;
+        right: 0;
+        /* border-bottom: 1px solid green; */
+        display: flex;
+        align-items: center;
+        /* width: 300px;*/
+    }
+
+    .benefit-text-left-top {
+        width: 255px;
+        left: 18px;
+        top: 24px;
+    }
+
+    .left-benefits .benefit-outer-circle {
+        top: 22px;
+        right: 29px;
+    }
+
+    .right-benefit-top {
+        /*left: -121px;*/
+        left: -119px;
+        top: -97px;
+    }
+
+    .right-benefit-top .benefit-outer-circle {
+        display: flex;
+    }
+
+    .benefit-text-right-top {
+        padding: 0;
+        width: 300px;
+        left: 0;
+        text-align: left;
+    }
+
+    .right-benefit-top .benefit-outer-circle {
+        left: -45px;
+        top: 9px;
+    }
+
+    .right-benefit-bottom {
+        top: -19px;
+        left: -146px;
+    }
+
+    .benefit-text-right-bottom {
+        left: 0;
+        padding: 0;
+        width: 340px;
+        text-align: left;
+        top: -55px;
+    }
+
+    .right-benefit-bottom .benefit-outer-circle {
+        top: -49px;
+        left: -46px;
+        display: flex;
+    }
+
+    .left-bottom-benefit {
+        left: -156px;
+        /* text-align: left; */
+        top: 59px;
+    }
+
+    .benefit-text-left-bottom {
+        width: 300px;
+        text-align: left;
+        left: 21px;
+    }
+
+    .left-bottom-benefit .benefit-outer-circle {
+        top: -10px;
+    }
+
+    .left-middle-benefit {
+        width: 300px;
+        right: -168px;
+        top: 81px;
+    }
+
+    .benefit-text-left-middle {
+        left: 34px;
+        top: 33px;
+    }
+
+    .left-middle-benefit .benefit-outer-circle {
+        top: 30px;
+        right: 13px;
+    }
+
+    .benefit-text-right-middle {
+        width: 300px;
+        left: -67px;
+        text-align: left;
+        top: -5px;
+        padding-left: 0;
+    }
+
+    .right-benefit-middle .benefit-outer-circle {
+        display: flex;
+        right: 120px;
+        top: -6px;
+    }
+
+    .right-benefits .benefit-text {
+        padding: 0;
+    }
+
+    .benefits-floating-leaves {
+        top: calc(20%);
+    }
+
+    #pick-tea-content {
+        padding-right: 20px;
+        padding-left: 20px;
+    }
+
+    .pick-tea-circle-outer {
+        left: calc(69%);
+        top: calc(15%);
+    }
+
+    .pick-tea-mint {
+        top: calc(23%);
+        left: calc(83%);
+    }
+
+    .footer-plant {
+        left: 59%;
+        top: 3%;
+    }
+
+    .designer {
+        left: 58%;
+        bottom: 30px;
+    }
+
+    #footer {
+        background-size: 560%;
+
+    }
+
+
+}
+
+/*500-579*/
+@media screen and (min-width: 500px) and (max-width: 579px) {
+    .pick-tea-mint {
+        top: calc(34%);
+    }
+
+    .pick-tea-circle-outer {
+        top: calc(26%);
+    }
+
+}
+
+/*480 - 499*/
+@media screen and (min-width: 480px) and (max-width: 499px) {
+    .pick-tea-mint {
+        top: calc(33%);
+    }
+
+    .pick-tea-circle-outer {
+        top: calc(24%);
+    }
+}
+
+/*320 - 479*/
+@media screen and (max-width: 479px) {
+
+
+    .company-products-title  {
+        width: 320px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .choose-title {
+        font-size: 40px;
+    }
+
+    .choose-title span {
+        font-size: 30px;
+    }
+
+    #choose .button-mint .btn_mint {
+        width: 200px;
+        height: 55px;
+    }
+
+    #choose .button-mint .little-mint {
+        position: absolute;
+        top: -15px;
+        right: -45px;
+        width: 80px;
+        height: 80px;
+    }
+
+    .slick-prev {
+        left: 15%;
+    }
+
+    .slick-next {
+        right: 23%;
+    }
+
+    #tea-sorts {
+        flex-wrap: wrap;
+    }
+
+    #tea-sorts .tea-sort {
+        margin: 15px 9px;
+        padding: 5px;
+    }
+
+    #order-content {
+        width: 285px;
+    }
+
+
+    #order .btn-mint {
+        width: 205px;
+    }
+
+    .discount-mint {
+        width: 150px;
+    }
+
+    #discount-box-content {
+        width: 260px;
+    }
+
+    #discount-box .discount-box-image img {
+        width: 200px;
+    }
+
+    #discount-box .discount-info .discount-info-title {
+        font-size: 20px;
+        width: 300px;
+    }
+
+    #discount-box .discount-info .discount-info-desc {
+        font-size: 14px;
+    }
+
+    #discount-box .discount-info .discount-info-desc {
+        width: 250px;
+        margin: 0 auto;
+        font-size: 14px;
+        padding: 10px 0;
+    }
+
+    #discount-box .discount-info .discount-form-input {
+        margin: 10px 0 20px 0;
+    }
+
+    #discount-box .discount-info .discount-form-input input {
+        width: 200px;
+        padding: 15px 0;
+        font-size: 14px;
+    }
+
+    #discount-box .discount-info .discount-form-btn {
+        width: 200px;
+        padding: 15px 0;
+        font-size: 14px;
+    }
+
+    #discount-box .little-mint {
+        width: 60px;
+        height: 60px;
+        top: -10px;
+        right: -22px;
+    }
+
+    #circle-benefit {
+        width: 300px;
+        height: 300px;
+    }
+
+    .benefit-tea img {
+        width: 280px;
+    }
+
+    .benefit {
+        position: unset;
+        display: flex;
+        align-items: center;
+        margin: 10px 0;
+    }
+
+    .left-benefits {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        flex-wrap: wrap;
+        width: 250px;
+        margin: 0 auto;
+    }
+
+    .right-benefits {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        flex-wrap: wrap;
+        width: 250px;
+        margin: 0 auto;
+    }
+
+    .benefit {
+        position: unset;
+        display: flex;
+        align-items: center;
+        margin: 10px 0;
+        justify-content: center;
+        text-align: center;
+        width: 100%;
+        flex-wrap: wrap;
+    }
+
+    .benefit-text {
+        position: unset;
+        text-align: center;
+        margin-top: 10px;
+    }
+
+    .benefit-outer-circle {
+        position: unset;
+    }
+
+    .benefit-text {
+        order: 2;
+    }
+
+    #circle-benefit {
+        display: contents;
+    }
+
+    .benefit-tea {
+        display: none;
+    }
+
+    .benefit-outer-circle {
+        width: 30px;
+        height: 30px;
+    }
+
+    .benefit-inner-circle {
+        width: 20px;
+        height: 20px;
+    }
+
+    .benefits-floating-leaves {
+        left: -63%;
+        top: calc(27%);
+    }
+
+    #pick-tea-content .pick-tea-video {
+        height: 200px;
+    }
+
+    .pick-tea-circle-outer {
+        width: 100px;
+        height: 100px;
+        flex-shrink: 0;
+        left: calc(77%);
+        top: calc(30%);
+    }
+
+    .pick-tea-circle-inner {
+        width: 60px;
+        height: 60px;
+    }
+
+    .pick-tea-mint {
+        width: 50px;
+        height: 50px;
+        top: calc(32%);
+        left: calc(83%);
+    }
+
+    #pick-tea-content .pick-tea-text {
+        font-size: 14px;
+    }
+
+    #footer {
+        background-size: 1200%;
+    }
+
+    .designer {
+        padding-bottom: 0;
+        bottom: 18px;
+    }
+
+    #footer-container {
+        flex-direction: column;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .footer_logo {
+        margin: 0;
+    }
+
+    .footer-info {
+        display: block;
+    }
+
+    .social_networks {
+        padding-bottom: 15px;
+    }
+
+    .pick-up  {
+        margin: 0;
+    }
+
+    .phones {
+        margin: 0;
+    }
+
+    .social_networks a:not(:last-child) {
+        margin: 0;
+    }
+
+    .rights {
+        margin-right: 5px;
+        width: 100px;
+    }
+
+    .designer {
+        /*left: 21%;
+        bottom: 8px;
+        padding-bottom: 10px;*/
+        width: 100px;
+    }
+
+    .footer-plant {
+        left: 53px;
+        top: -4%;
+    }
+
+    #thanks {
+        width: 300px;
+    }
+
+    #thanks .thanks-text {
+        width: 200px;
+        text-align: center;
+        justify-content: center;
+        top: calc(8%);
+        right: calc(8%);
+    }
+
+
+}
