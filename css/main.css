@@ -1086,6 +1086,18 @@ div.benefit-tea:hover {
     z-index: 999;
 }
 
+.close-order:hover {
+   cursor: pointer;
+}
+
+.close:hover {
+    cursor: pointer;
+}
+
+#close-cancel:hover {
+    cursor: pointer;
+}
+
 .close-thanks {
     cursor: pointer;
     right: 26px;
