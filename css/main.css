@@ -476,6 +476,10 @@ body {
     z-index: 10;
 }
 
+.slick-prev:hover {
+    cursor: pointer;
+}
+
 .slick-prev:before {
     content: url("../images/left-arrow.png");
     position: absolute;
@@ -496,9 +500,17 @@ body {
     z-index: 10;
 }
 
+.slick-next:hover {
+    cursor: pointer;
+}
+
 .slick-next:before {
     content: url("../images/right-arrow.png");
     position: absolute;
+}
+
+.slick-next:before:hover {
+    cursor: pointer;
 }
 
 .slick-initialized .slick-slide {

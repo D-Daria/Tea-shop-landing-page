@@ -1641,6 +1641,10 @@
         top: 15px;
     }
 
+    .product-leaves-right {
+        bottom: 4%;
+        right: calc(-37%);
+    }
 
 }
 
