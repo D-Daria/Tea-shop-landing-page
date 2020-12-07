@@ -219,7 +219,15 @@
     }
 
     .footer_logo {
-        margin-right: 20px;
+        margin-right: 40px;
+    }
+
+    .pick-up {
+        margin-right: 0;
+    }
+
+    .phones {
+        margin-right: 0;
     }
 
     .designer {
@@ -228,13 +236,12 @@
 
     .social_networks {
         display: flex;
-        flex-direction: column;
         justify-content: space-between;
-        align-items: center;
+        align-items: flex-start;
     }
 
     .instagram, .facebook {
-        margin-right: 0;
+        margin-right: 10px;
     }
 
     #thanks {
@@ -422,6 +429,7 @@
 
     .footer-info {
         justify-content: space-between;
+        align-items: flex-start;
     }
 
     .pick-up {
@@ -436,6 +444,14 @@
     .phones {
         text-align: left;
         margin: 0;
+    }
+
+    .social_networks {
+        flex-direction: initial;
+    }
+
+    .social_networks a:not(:last-child) {
+        margin-right: 10px;
     }
 
     .designer_rights {
@@ -479,6 +495,7 @@
     }
 }
 
+/*767-*/
 
 /*580 - 767*/
 @media screen and (max-width: 767px) {
@@ -1130,7 +1147,7 @@
     .social_networks {
         order: 4;
        position: unset;
-        margin-top: 0;
+        /*margin-top: 0;*/
         margin-right: 45px;
     }
 
