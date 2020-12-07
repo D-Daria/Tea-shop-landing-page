@@ -78,11 +78,14 @@ $(document).ready( function ()  {
 
     $('.close').click(()=>{
         $('#thanks-container').hide();
-
     });
 
     $('#burger_menu').click(function () {
         $('.header_menu').css('display', 'flex');
+    });
+
+    $('.close-header-menu').click(function () {
+        $('.header_menu').hide();
     });
 
     $('.header-link').click(() => {
