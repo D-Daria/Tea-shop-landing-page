@@ -249,6 +249,14 @@
         height: 450px;
     }
 
+    #order {
+        background-size: 170%;
+    }
+
+    .order-plant {
+        left: calc(11%);
+    }
+
 
 }
 
@@ -468,7 +476,7 @@
     }
 
     .order-plant {
-        left: calc(16%);
+        left: calc(11%);
     }
 
     #thanks {
@@ -1230,6 +1238,10 @@
 /*320 - 479*/
 @media screen and (max-width: 479px) {
 
+    .header_menu .header-link {
+        margin-left: 0;
+    }
+
 
     .adaptive_logo {
         margin: 0;
@@ -1496,6 +1508,10 @@
         position: unset;
         text-align: center;
         margin-top: 10px;
+    }
+
+    .left-benefits .benefit-text {
+        padding-left: 0;
     }
 
     .benefit-outer-circle {
