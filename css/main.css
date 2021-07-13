@@ -410,11 +410,14 @@ body {
     background-color: rgb(255, 255, 255);
     box-shadow: 0 0 26.39px 2.61px rgba(180, 179, 171, 0.19);
     display: flex !important;
+    display: -moz-flex;
     padding: 40px 50px 40px 40px;
     margin: 0 30px;
     align-items: center;
     opacity: 0.7;
     width: fit-content !important;
+    width: -moz-fit-content !important;
+    -moz-box-sizing: border-box;
     /*width: 636px;*/
     /*width: 527px !important;*/
 }
@@ -520,10 +523,12 @@ body {
 
 .slick-slide {
     transform: scale(0.8);
+    -moz-transform: scale(0.8);
 }
 
 .slick-active {
     transform: scale(1.0);
+    -moz-transform: scale(1.0);
 }
 
 .slick-active .tea {
@@ -562,6 +567,7 @@ body {
     margin: 0 auto;
     padding-bottom: 160px;
     display: flex;
+    display: -moz-flex;
     justify-content: center;
     position: relative;
 }
@@ -1048,16 +1054,21 @@ div.benefit-tea:hover {
 #order {
     background-image: url("../images/order-bg.png");
     background-position: center;
+    background-size: 115%;
     border-radius: 33px;
     background-color: rgb(255, 255, 255);
     box-shadow: 0px 0px 30.45px 4.55px rgba(161, 160, 154, 0.19);
     padding: 60px 76px 84px 426px;
     box-sizing: border-box;
+    -moz-box-sizing: border-box;
     position: relative;
 }
 
+
+
 #order #order-form {
     display: flex;
+    display: -moz-flex;
     flex-wrap: wrap;
     flex-direction: column;
     align-items: center;
@@ -1065,6 +1076,7 @@ div.benefit-tea:hover {
 
 #order-form .order-inputs {
     display: flex;
+    display: -moz-flex;
     flex-wrap: wrap;
     width: 492px;
     align-items: center;
@@ -1074,8 +1086,8 @@ div.benefit-tea:hover {
 
 .order-plant {
     position: absolute;
-    left: calc(25%);
-    top: calc(50% - 105px);
+    left: calc(23.5%);
+    top: calc(50% - 104px);
 }
 
 .close-order {
@@ -1222,6 +1234,7 @@ div.benefit-tea:hover {
 
 .close-header-menu {
     fill: #80a506;
+    display: none;
 }
 
 

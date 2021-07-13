@@ -82,6 +82,7 @@ $(document).ready( function ()  {
 
     $('#burger_menu').click(function () {
         $('.header_menu').css('display', 'flex');
+        $('.close-header-menu').css('display', 'block');
     });
 
     $('.close-header-menu').click(function () {
