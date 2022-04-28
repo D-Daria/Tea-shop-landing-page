@@ -1,1 +1,1 @@
-# Tea page landing page
+# Tea shop landing page
