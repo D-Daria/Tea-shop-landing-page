@@ -2,8 +2,6 @@
 
 ## Description
 
-Landing page for tea shop made with HTML/CSS/JS
-
-Landing page is reponsive and can be viewed on every device.
+Landing page with responsive design for tea shop made with HTML/CSS/JS
 
 Open <code>index.html</code> to see it in your browser.
