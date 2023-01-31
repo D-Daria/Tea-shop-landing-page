@@ -340,8 +340,13 @@
         max-width: 330px;
     }
 
+    #company-adv {
+        background-image: none;
+    }
+
     #company-adv-container {
         padding-bottom: 145px;
+        background-image: none;
     }
 
     .comp-advantages {
@@ -405,6 +410,14 @@
     .pick-tea-mint {
         top: calc(47%);
         left: calc(78%);
+    }
+
+    #company-products {
+        background-image: none;
+    }
+
+    #discount {
+        background-image: none;
     }
 
     #footer {

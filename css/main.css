@@ -138,12 +138,19 @@ body {
 #company-adv {
     position: relative;
     overflow: hidden;
+    background-image: url("../images/advantages-leaves-left.png");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 #company-adv-container {
     max-width: 1200px;
     margin: 0 auto;
     padding-bottom: 160px;
+    background-image: url("../images/adv-floating-leaves-right.png");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
 }
 
 .second-title {
@@ -236,9 +243,18 @@ body {
     overflow: hidden;
 }
 
+/* #company-products {
+    position: relative;
+    overflow: hidden;
+} */
+
 #company-products {
     position: relative;
     overflow: hidden;
+    background-image: url("../images/products-leaves-right.png");
+    background-attachment: fixed;
+    background-position: right;
+    background-repeat: no-repeat;
 }
 
 #company-products-container {
@@ -418,6 +434,7 @@ body {
     width: fit-content !important;
     width: -moz-fit-content !important;
     -moz-box-sizing: border-box;
+    box-sizing: border-box;
     /*width: 636px;*/
     /*width: 527px !important;*/
 }
@@ -570,6 +587,10 @@ body {
     display: -moz-flex;
     justify-content: center;
     position: relative;
+
+    background-image: url("../images/discount-floatingleaves.png");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
 }
 
 #discount-box {
@@ -1064,8 +1085,6 @@ div.benefit-tea:hover {
     position: relative;
 }
 
-
-
 #order #order-form {
     display: flex;
     display: -moz-flex;
@@ -1201,7 +1220,6 @@ div.benefit-tea:hover {
     cursor: pointer;
 }
 
-
 #burger_menu {
     display: none;
     fill: rgb(143, 188, 98);
@@ -1237,6 +1255,52 @@ div.benefit-tea:hover {
     display: none;
 }
 
+#top-anchor {
+    display: none;
+    position: fixed;
+    right: 9%;
+    bottom: 9%;
+    padding: 10px;
+    background: #80a5067d;
+    border-radius: 11px;
+    border-color: black;
+    border-width: 10px;
+    -webkit-animation: spin 0.4s linear;
+    -moz-animation: spin 0.4s linear;
+    animation: spin 0.4s linear;
+}
 
+@keyframes spin {
+    from {
+        -webkit-transform: rotate(-180deg);
+        transform: rotate(-180deg);
+    } to {
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+}
 
+@-moz-keyframes spin {
+    from {
+        transform: rotate(-180deg);
+    } to {
+        transform: rotate(0deg);
+    }
+}
 
+@-webkit-keyframes spin {
+    from {
+        transform: rotate(-180deg);
+    } to {
+        transform: rotate(0deg);
+    }
+}
+
+#top-anchor div.anchor-wrapper {
+    width: 30px;
+    height: 30px;
+}
+
+#top-anchor .anchor-wrapper svg {
+    fill: #fff;
+}

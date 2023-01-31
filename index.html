@@ -103,7 +103,7 @@
 <div id="company-adv">
     <div id="company-adv-container">
         <h2 class="company-adv-title second-title">Почему выбирают нас?</h2>
-        <img class="floating-leaves left leaves-adv" src="images/advantages-leaves-left.png" alt="">
+        <!-- <img class="floating-leaves left leaves-adv" src="images/advantages-leaves-left.png" alt=""> -->
         <div class="comp-advantages">
             <div class="comp-advantage outer-circle animate__animated animate__bounceInLeft wow" data-wow-duration="2s">
                 <span class="advantage-text-top-truck">Доставка</span>
@@ -135,13 +135,13 @@
                 <span class="advantage-text-bottom advantage-text-bottom-cart">сортов&nbsp;чая</span>
             </div>
         </div>
-        <img class="floating-leaves right leaves-adv" src="images/adv-floating-leaves-right.png" alt="">
+        <!-- <img class="floating-leaves right leaves-adv" src="images/adv-floating-leaves-right.png" alt=""> -->
     </div>
 </div>
 
 <div id="company-products">
     <div id="company-products-container">
-        <img class="floating-leaves product-leaf-leftout" src="images/leafout.png" alt="">
+        <!-- <img class="floating-leaves product-leaf-leftout" src="images/leafout.png" alt=""> -->
         <h2 class="second-title company-products-title">У нас вы найдете</h2>
         <div class="products">
             <div class="products-top animate__animated animate__lightSpeedInRight wow">
@@ -216,7 +216,7 @@
                 </div>
             </div>
         </div>
-        <img class="floating-leaves product-leaves-right" src="images/products-leaves-right.png" alt="">
+        <!-- <img class="floating-leaves product-leaves-right" src="images/products-leaves-right.png" alt=""> -->
     </div>
 </div>
 
@@ -621,7 +621,7 @@
                 <h2 class="second-title discount-info-title">Акция для новых клиентов</h2>
                 <div class="discount-info-desc">Дарим скидку <span>5%</span> на первый заказ!</div>
                 <div class="discount-info-desc">Скопируйте промокод из письма и ставьте чайник</div>
-                <form action="">
+                <form action="" method="post">
                     <div class="discount-form-input">
                         <label for="email"></label>
                         <input type="text" name="email" id="email" placeholder="example@gmail.com">
@@ -635,7 +635,7 @@
             </div>
         </div>
     </div>
-    <img src="images/discount-floatingleaves.png" class="discount-floating-leaves" alt="">
+    <!-- <img src="images/discount-floatingleaves.png" class="discount-floating-leaves" alt=""> -->
 </div>
 
 <div id="tea-description">
@@ -832,11 +832,11 @@
         </div>
         <div id="order-content">
             <h2 class="second-title">Оформление заказа</h2>
-            <form action="" id="order-form">
+            <form action="http://127.0.0.1:8181/teaberry.com" enctype="application/x-www-form-urlencoded" method="post" id="order-form">
                 <div class="order-inputs">
                     <div class="order-input tea-input">
                         <label for="tea_order"></label>
-                        <input type="text" class=name="tea_order" id="tea_order" placeholder="Ваш заказ">
+                        <input type="text" name="tea_order" id="tea_order" placeholder="Ваш заказ">
                         <div class="order_error_input"></div>
                     </div>
                     <div class="order-input gram-input">
@@ -849,9 +849,14 @@
                         <input type="text" name="name" id="name" placeholder="Ваше имя">
                         <div class="order_error_input"></div>
                     </div>
-                    <div class="order-input name-input">
+                    <!-- <div class="order-input phone-input">
                         <label for="phone"></label>
                         <input type="text" name="phone" id="phone" placeholder="Ваш телефон">
+                        <div class="order_error_input"></div>
+                    </div> -->
+                    <div class="order-input name-input">
+                        <label for="email"></label>
+                        <input type="text" name="email" id="email" placeholder="Ваш email">
                         <div class="order_error_input"></div>
                     </div>
                 </div>
@@ -876,14 +881,25 @@
     </div>
 </div>
 
-<script src="js/jquery-3.5.1.js"></script>
-<script src="js/parallax.min.js"></script>
-<script src="js/wow.js"></script>
-<script src="js/slick.js"></script>
-<script src="js/jquery.arctext.js"></script>
-<script src="js/jquery.lettering-0.6.1.min.js"></script>
-<script src="js/circletype.min.js"></script>
-<script src="js/main.js"></script>
+<div id="top-anchor">
+    <div class="anchor-wrapper">
+    <a href="#header">
+        <svg fill="#000000" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" 
+             viewBox="0 0 330 330" xml:space="preserve">
+        <path id="XMLID_224_" d="M325.606,229.393l-150.004-150C172.79,76.58,168.974,75,164.996,75c-3.979,0-7.794,1.581-10.607,4.394
+            l-149.996,150c-5.858,5.858-5.858,15.355,0,21.213c5.857,5.857,15.355,5.858,21.213,0l139.39-139.393l139.397,139.393
+            C307.322,253.536,311.161,255,315,255c3.839,0,7.678-1.464,10.607-4.394C331.464,244.748,331.464,235.251,325.606,229.393z"/>
+        </svg></a>
+    </div>
+</div>
+
+<script src="./js/jquery-3.5.1.js"></script>
+<script src="./js/wow.js"></script>
+<script src="./js/slick.js"></script>
+<script src="./js/jquery.arctext.js"></script>
+<script src="./js/jquery.lettering-0.6.1.min.js"></script>
+<script src="./js/circletype.min.js"></script>
+<script src="./js/main.js"></script>
 
 </body>
 </html>

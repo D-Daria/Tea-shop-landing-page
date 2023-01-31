@@ -2,8 +2,6 @@ $(document).ready( function ()  {
 
     new WOW().init();
 
-    $('#company-adv').parallax({imageSrc: '../images/adv-floating-leaves-right.png'});
-
     $('.advantage-text-top-truck').arctext({radius: 100});
     $('.advantage-text-top-gift').arctext({radius: 85});
     $('.advantage-text-top-jewel').arctext({radius: 100});
@@ -89,9 +87,11 @@ $(document).ready( function ()  {
         $('.header_menu').hide();
     });
 
-    $('.header-link').click(() => {
-        $('.header_menu').css('display', 'none');
-    });
+    if (window.innerWidth < 1024) {
+        $('.header-link').click(() => {
+            $('.header_menu').css('display', 'none');
+        });
+    };
 
     $('.order-input input').each(function () {
         $(this).attr('required', 'true');
@@ -103,30 +103,28 @@ $(document).ready( function ()  {
         $('.order-input input').css('borderColor', 'rgb(143, 188, 98)');
         order_error_input.hide();
 
-
         let tea_order = $('#tea_order');
         let gram = $('#gram');
         let name = $('#name');
-        let phone = $('#phone');
+        // let phone = $('#phone');
+        let email = $('#order #email');
 
         let tea_order_attr = tea_order.attr('placeholder');
         let gram_attr = gram.attr('placeholder');
         let name_attr = name.attr('placeholder');
-        let phone_attr = phone.attr('placeholder');
-
+        // let phone_attr = phone.attr('placeholder');
+        let email_attr = email.attr('placeholder');
 
         if (!tea_order.val()) {
             tea_order.siblings('.order_error_input').show();
             $(order_error_input).eq(0).text('Необходимо ввести' + ' ' + tea_order_attr.toLowerCase()).css('color', 'red');
             $(tea_order).eq(0).css('borderColor', 'red');
-
         }
 
         if (!gram.val()) {
             gram.siblings('.order_error_input').show();
             $(order_error_input).eq(1).text('Необходимо ввести' + ' ' + gram_attr.toLowerCase()).css('color', 'red');
             $(gram).eq(0).css('borderColor', 'red');
-
         }
 
         if (!name.val()) {
@@ -135,13 +133,17 @@ $(document).ready( function ()  {
             $(name).eq(0).css('borderColor', 'red');
         }
 
-        if (!phone.val()) {
-            phone.siblings('.order_error_input').show();
-            $(order_error_input).eq(3).text('Необходимо ввести' + ' ' + phone_attr.toLowerCase()).css('color', 'red');
-            $(phone).eq(0).css('borderColor', 'red');
+        // if (!phone.val()) {
+        //     phone.siblings('.order_error_input').show();
+        //     $(order_error_input).eq(3).text('Необходимо ввести' + ' ' + phone_attr.toLowerCase()).css('color', 'red');
+        //     $(phone).eq(0).css('borderColor', 'red');
+        // }
 
+        if (!email.val()) {
+            email.siblings('.order_error_input').show();
+            $(order_error_input).eq(3).text('Необходимо ввести' + ' ' + email_attr.toLowerCase()).css('color', 'red');
+            $(email).eq(0).css('borderColor', 'red');
         }
-
     });
 
     $('.discount-form-btn').click(() => {
@@ -183,8 +185,20 @@ $(document).ready( function ()  {
 
     });
 
+    // Top-anchor
+    window.onscroll = function() {scrollFunction()};
 
+    function scrollFunction() {
+        if (document.body.scrollTop > 300 || document.documentElement.scrollTop > 300) {
+            document.getElementById("top-anchor").style.display = "block";
+        } else {
+            document.getElementById("top-anchor").style.display = "none";
+        }
+    }
 
+    $("a[href='#header']").click(function() {
+        $("html, body").animate({ scrollTop: 0 }, "slow");
+        return false;
+    });
 
 });
-
